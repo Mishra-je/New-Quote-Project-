@@ -1,0 +1,51 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.quotecontainer
+{
+    background-color: black;
+    width: 30%;
+    min-height: 40%;
+    padding: 20px;
+    color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+
+}
+
+.quotecontainer span{
+    font-size: 40px;
+   padding: 0 40%;
+   
+}
+
+.quotecontainer p{
+   margin-bottom: 50px;
+   margin-top: 20px;
+}
+.quotecontainer p::before , .quotecontainer p::after
+{
+    content: '"';
+}
+.quotecontainer button
+{
+    padding: 10px;
+    position: absolute;
+    top: 70%;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.quotecontainer button:hover
+{
+    background-color: yellow;
+}
